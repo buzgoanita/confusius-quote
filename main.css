@@ -1,0 +1,30 @@
+body {
+  background: url(assets/runner.jpg) no-repeat center center fixed;
+  background-size: cover;
+}
+
+div {
+  color: rgb(255, 250, 205);
+  text-align: center;
+  margin-top: 15%;
+  margin-left: 10%;
+  margin-right: 10%;
+  radius: 50%;
+  text-shadow: 5px 5px 5px black;
+}
+
+blockquote {
+  font-size: 5vw;
+  font-family: "Brush Script MT";
+  margin-bottom: 4%;
+  
+}
+
+p {
+  font-size: 2vw;
+  font-style: italic;
+  border-top: 1px solid rgb(255, 250, 205);
+  margin-left: 15%;
+  margin-right:15%;
+  padding: 3%;
+}
