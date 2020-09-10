@@ -3,28 +3,49 @@ body {
   background-size: cover;
 }
 
-div {
+.quote, .languages {
   color: rgb(255, 250, 205);
   text-align: center;
+  text-shadow: 5px 5px 5px black;
+  letter-spacing: 0.3em;
+}
+  
+.quote {
   margin-top: 15%;
   margin-left: 10%;
   margin-right: 10%;
-  radius: 50%;
-  text-shadow: 5px 5px 5px black;
+  
 }
 
 blockquote {
   font-size: 5vw;
   font-family: "Brush Script MT";
-  margin-bottom: 4%;
-  
 }
 
-p {
+.author {
   font-size: 2vw;
   font-style: italic;
-  border-top: 1px solid rgb(255, 250, 205);
-  margin-left: 15%;
-  margin-right:15%;
-  padding: 3%;
+  margin-top: -3%;
+}
+
+
+.languages {
+  font-size: 1.5vw;
+  margin-top: 5%;
+  letter-spacing: 0.1em;
+}
+
+ .nation-pictures {
+  height: 3%;
+  width: 3%;
+}
+
+.nation-pictures:hover {
+  transform: rotateY(360deg);
+  transition: 0.2s;
+}
+
+.flag {
+  
+  letter-spacing: 1em;
 }
