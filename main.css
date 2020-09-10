@@ -42,7 +42,7 @@ blockquote {
 
 .nation-pictures:hover {
   transform: rotateY(360deg);
-  transition: 0.2s;
+  transition: rotateY, 0.5s;
 }
 
 .flag {
