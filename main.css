@@ -18,19 +18,19 @@ body {
 }
 
 blockquote {
-  font-size: 5vw;
+  font-size: 4.5em;
   font-family: "Brush Script MT";
 }
 
 .author {
-  font-size: 2vw;
+  font-size: 1.5em;
   font-style: italic;
   margin-top: -3%;
 }
 
 
 .languages {
-  font-size: 1.5vw;
+  font-size: 1.25em;
   margin-top: 5%;
   letter-spacing: 0.1em;
 }
@@ -40,11 +40,19 @@ blockquote {
   width: 3%;
 }
 
-.nation-pictures:hover {
+.nation-pictures:hover, .current-language:hover {
   transform: rotateY(360deg);
   transition: rotateY, 0.5s;
 }
 
 .flag {
-  letter-spacing: 1em;
+  letter-spacing: 2em;
 }
+ 
+  
+
+.current-language {
+  height: 4.5%;
+  width: 4.5%;
+}
+
